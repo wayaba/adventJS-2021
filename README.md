@@ -2,4 +2,4 @@
 Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/) (By [@midudev](https://twitter.com/midudev))
 
 
-![adventjs-logo](https://adventjs.dev/og-image.png =100x100)
+![adventjslogo](https://adventjs.dev/og-image.png =100x100)
