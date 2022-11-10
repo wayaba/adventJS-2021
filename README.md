@@ -22,7 +22,6 @@ Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/
 | 12  | [La ruta perfecta para dejar los regalos](https://adventjs.dev/challenges/12)      | [solución](./src/challenge12.js) |
 | 13  | [Envuelve regalos con asteriscos](https://adventjs.dev/challenges/13)              | [solución](./src/challenge13.js) |
 | 14  | [En busca del reno perdido](https://adventjs.dev/challenges/14)                    | [solución](./src/challenge14.js) |
-
 | 15  | [El salto perfecto](https://adventjs.dev/challenges/15)                            | [solución](./src/challenge15.js) |
 | 16  | [Descifrando los números...](https://adventjs.dev/challenges/16)                   | [solución](./src/challenge16.js) |
 | 17  | [La locura de enviar paquetes en esta época](https://adventjs.dev/challenges/17)   | [solución](./src/challenge17.js) |
