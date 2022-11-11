@@ -35,6 +35,6 @@ Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/
 | 25  | [El último juego y hasta el año que viene](https://adventjs.dev/challenges/25)     | [solución](./src/challenge25.js) |
 
 
-## Gracias Midu :heart:
+## Gracias [midudev](https://twitter.com/midudev) :heart:
 
 [Twitch](https://twitch.tv/midudev) [Discord](https://discord.gg/midudev) [Youtube](https://youtube.com/midudev)
