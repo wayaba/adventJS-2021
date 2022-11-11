@@ -33,3 +33,8 @@ Mis soluciones para los [25 días de retos con JavaScript](https://adventjs.dev/
 | 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](https://adventjs.dev/challenges/23)                    | [solución](./src/challenge23.js) |
 | 24  | [Comparando árboles de Navidad](https://adventjs.dev/challenges/24)                | [solución](./src/challenge24.js) |
 | 25  | [El último juego y hasta el año que viene](https://adventjs.dev/challenges/25)     | [solución](./src/challenge25.js) |
+
+
+## Gracias Midu :heart:
+
+[Twitch](https://twitch.tv/midudev) [Discord](https://discord.gg/midudev) [Youtube](https://youtube.com/midudev)
