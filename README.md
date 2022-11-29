@@ -1,5 +1,5 @@
 # AdventJS 2021
-Mis soluciones para los [25 días de retos con JavaScript](https://2021.adventjs.dev/challenges)
+Mis soluciones para los [25 días de retos con JavaScript 2021](https://2021.adventjs.dev/challenges)
 
 
 <img src="http://adventjs.dev/og-image.png" height="200" />
