@@ -13,7 +13,7 @@ const tree = {
     left: null, // no tiene más ramas
     right: null, // no tiene más ramas
   },
-};
+}
 
 /* Gráficamente sería así:
     1
@@ -23,7 +23,7 @@ const tree = {
 1 + 2 + 3 = 6
 */
 
-console.log(countDecorations(tree)); // 6
+console.log(countDecorations(tree)) // 6
 
 const bigTree = {
   value: 1,
@@ -53,7 +53,7 @@ const bigTree = {
       right: null,
     },
   },
-};
+}
 
 /*
         1
@@ -65,18 +65,18 @@ const bigTree = {
  3
 */
 
-console.log(countDecorations(bigTree)); // 28
+console.log(countDecorations(bigTree)) // 28
 
 export default function countDecorations(bigTree) {
   // ¡No olvides compartir tu solución en redes!
-  let count = 0;
+  let count = 0
   const navigator = (obj) => {
-    count += obj.value;
-    obj.left ? navigator(obj.left) : null;
-    obj.right ? navigator(obj.right) : null;
-  };
+    count += obj.value
+    obj.left ? navigator(obj.left) : null
+    obj.right ? navigator(obj.right) : null
+  }
 
-  navigator(bigTree);
+  navigator(bigTree)
 
-  return count;
+  return count
 }

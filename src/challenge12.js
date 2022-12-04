@@ -1,6 +1,6 @@
 //https://adventjs.dev/challenges/12
 
-getMinJump([5, 3, 6, 7, 9]); // -> 4
+console.log(getMinJump([5, 3, 6, 7, 9])) // -> 4
 
 // S es salto, X es obstáculo
 /* Así quedaría la representación:
@@ -9,7 +9,7 @@ getMinJump([5, 3, 6, 7, 9]); // -> 4
 S-----------S-----------S-------
 */
 
-getMinJump([2, 4, 6, 8, 10]); // -> 7
+console.log(getMinJump([2, 4, 6, 8, 10])) // -> 7
 
 /* Así quedaría la representación:
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -26,24 +26,24 @@ S--------------------S---------
 // 7 es el ideal!!! ✅
 */
 
-getMinJump([1, 2, 3, 5]); // -> 4
-getMinJump([3, 7, 5]); // -> 2
-getMinJump([9, 5, 1]); // -> 2
+console.log(getMinJump([1, 2, 3, 5])) // -> 4
+console.log(getMinJump([3, 7, 5])) // -> 2
+console.log(getMinJump([9, 5, 1])) // -> 2
 
 export default function getMinJump(obstacles) {
   // ¡No olvides compartir tu solución en redes!
 
-  obstacles.sort((a, b) => a - b);
+  obstacles.sort((a, b) => a - b)
 
-  const max = Math.max(...obstacles);
-  let minJump = 0;
+  const max = Math.max(...obstacles)
+  let minJump = 0
   for (let index = 2; index <= max; index++) {
     //si no hay multiplo del numero, esa es la cantidad de saltos
     if (obstacles.every((item) => item % index !== 0)) {
-      minJump = index;
-      break;
+      minJump = index
+      break
     }
   }
 
-  return minJump;
+  return minJump
 }

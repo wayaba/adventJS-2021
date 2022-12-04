@@ -1,9 +1,9 @@
 //https://adventjs.dev/challenges/02
-const carta = "bici coche balón  _playstation bici coche peluche";
+const carta = 'bici coche balón  _playstation bici coche peluche'
 
-const regalos = listGifts(carta);
+const regalos = listGifts(carta)
 
-console.log(regalos);
+console.log(regalos)
 /*
 {
   bici: 2,
@@ -15,14 +15,15 @@ console.log(regalos);
 
 export default function listGifts(letter) {
   // ¡Tú puedes!
-  let letterWithSingleSpace = letter.trim().replace(/\s{2,}/g, " ");
+  let letterWithSingleSpace = letter.trim().replace(/\s{2,}/g, ' ')
   let cleanLetter = {}
-  
-  letterWithSingleSpace.split(" ").filter(item => !item.includes("_")).forEach(item => {
-    if(cleanLetter[item])
-      cleanLetter[item] += 1
-    else
-      cleanLetter[item] = 1
-  })
+
+  letterWithSingleSpace
+    .split(' ')
+    .filter((item) => !item.includes('_'))
+    .forEach((item) => {
+      if (cleanLetter[item]) cleanLetter[item] += 1
+      else cleanLetter[item] = 1
+    })
   return cleanLetter
 }

@@ -1,6 +1,6 @@
 //https://adventjs.dev/challenges/13
 
-wrapGifts(["📷", "⚽️"]);
+console.log(wrapGifts(['📷', '⚽️']))
 /* Resultado:
 [ '****',
   '*📷*',
@@ -9,7 +9,7 @@ wrapGifts(["📷", "⚽️"]);
 ]
 */
 
-wrapGifts(["🏈🎸", "🎮🧸"]);
+console.log(wrapGifts(['🏈🎸', '🎮🧸']))
 /* Resultado:
 [ '******',
   '*🏈🎸*',
@@ -18,7 +18,7 @@ wrapGifts(["🏈🎸", "🎮🧸"]);
 ]
 */
 
-wrapGifts(["📷"]);
+console.log(wrapGifts(['📷']))
 /* Resultado:
 [ '****',
   '*📷*',
@@ -29,15 +29,15 @@ wrapGifts(["📷"]);
 export default function wrapGifts(gifts) {
   // ¡No olvides compartir tu solución en redes!
 
-  let giftPackage = [];
+  let giftPackage = []
 
-  let size = 0;
+  let size = 0
   gifts.forEach((item) => {
-    giftPackage.push("*" + item + "*");
-    size = item.length > size ? item.length : size;
-  });
-  let topAndBotton = [];
-  topAndBotton.push("*" + "*".repeat(size) + "*");
+    giftPackage.push('*' + item + '*')
+    size = item.length > size ? item.length : size
+  })
+  let topAndBotton = []
+  topAndBotton.push('*' + '*'.repeat(size) + '*')
 
-  return topAndBotton.concat(giftPackage).concat(topAndBotton);
+  return topAndBotton.concat(giftPackage).concat(topAndBotton)
 }

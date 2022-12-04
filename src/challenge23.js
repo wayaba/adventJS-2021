@@ -1,7 +1,7 @@
 //https://adventjs.dev/challenges/23
 
 const from = 'BAL'
-const to   = 'LIB'
+const to = 'LIB'
 console.log(canReconfigure(from, to)) // true
 /* la transformación sería así:
 B -> L
@@ -10,7 +10,7 @@ L -> B
 */
 
 const from2 = 'CON'
-const to2   = 'JUU'
+const to2 = 'JUU'
 console.log(canReconfigure(from2, to2)) // false
 /* no se puede hacer la transformación:
 C -> J
@@ -19,7 +19,7 @@ N -> FALLO
 */
 
 const from3 = 'XBOX'
-const to3   = 'XXBO'
+const to3 = 'XXBO'
 console.log(canReconfigure(from3, to3)) // false
 /* no se puede hacer la transformación:
 X -> X
@@ -29,7 +29,7 @@ X -> O (FALLO, la X no puede asignarse a la O que ya se asignó a la X)
 */
 
 const from4 = 'XBOX'
-const to4   = 'XOBX'
+const to4 = 'XOBX'
 console.log(canReconfigure(from4, to4)) // true
 
 //const from5 = 'MMM'
@@ -42,24 +42,28 @@ M -> D (FALLO, asigna el mismo carácter a dos letras distintas)
 */
 
 const from6 = 'AA'
-const to6  = 'MID'
+const to6 = 'MID'
 console.log(canReconfigure(from6, to6)) // false -> no tiene la misma longitud
 
 export default function canReconfigure(from, to) {
- // ¡No olvides compartir tu solución en redes!
-  
-  if(from.length !== to.length) return false
+  // ¡No olvides compartir tu solución en redes!
+
+  if (from.length !== to.length) return false
   const toList = to.split('')
   let reconfiguredLetters = {}
-  return !from.split('').some((letter, index)=>{
-    if(!reconfiguredLetters[letter]){
-      if(Object.values(reconfiguredLetters).some(item=> item === toList[index])) return true
+  return !from.split('').some((letter, index) => {
+    if (!reconfiguredLetters[letter]) {
+      if (
+        Object.values(reconfiguredLetters).some(
+          (item) => item === toList[index]
+        )
+      )
+        return true
       reconfiguredLetters[letter] = toList[index]
-  	}else{
-      if(reconfiguredLetters[letter] !== toList[index]) return true
+    } else {
+      if (reconfiguredLetters[letter] !== toList[index]) return true
     }
-    
-      return false
+
+    return false
   })
-  
 }
