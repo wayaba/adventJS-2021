@@ -2,7 +2,7 @@
 
 Mis soluciones para los [25 días de retos con JavaScript 2021](https://2021.adventjs.dev/challenges)
 
-<img src="http://adventjs.dev/og-image.png" height="200" />
+<img src="https://user-images.githubusercontent.com/37515166/205499219-fa1eda6a-dfea-4875-ab8e-a5a8e1f9ba62.PNG" height="200" />
 
 ## Retos :computer:
 
