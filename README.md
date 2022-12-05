@@ -1,4 +1,4 @@
-# AdventJS 2021 :sparkles:
+# adventJS-2021 :santa: :christmas_tree: :bell:
 
 Mis soluciones para los [25 días de retos con JavaScript 2021](https://2021.adventjs.dev/challenges)
 
