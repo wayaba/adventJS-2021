@@ -1,6 +1,6 @@
 # adventJS-2021 :santa: :christmas_tree: :bell:
 
-Mis soluciones para los [25 días de retos con JavaScript 2021](https://2021.adventjs.dev/challenges)
+Mis soluciones para los [24 días de retos con JavaScript 2021](https://2021.adventjs.dev/challenges)
 
 <img src="https://user-images.githubusercontent.com/37515166/205499219-fa1eda6a-dfea-4875-ab8e-a5a8e1f9ba62.PNG" height="200" />
 
@@ -40,7 +40,7 @@ Mis soluciones para los [25 días de retos con JavaScript 2021](https://2021.adv
 npm run challenge<numero_challenge>
 ```
 
-Donde numero_challenge arranca de 01 hasta 25
+**NOTA: numero_challenge arranca de 01 hasta 24**
 
 ## Gracias [midudev](https://twitter.com/midudev) :heart:
 
